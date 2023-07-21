@@ -15,7 +15,7 @@ public class Avenger {
     private String movie;
 
     /**
-    @param name Jméno Avengera
+    * @param name Jméno Avengera
     * @param civilName Civilní jméno
     * @param nickname Přezdívka
     * @param movie První film
@@ -66,8 +66,7 @@ public class Avenger {
         System.out.println("Civilní jméno: "+getCivilName());
         System.out.println("Přezdívka: "+getNickname());
         System.out.println("První výskyt: "+getMovie());
-        //return "Jméno:" + getAvengerName() + "\n" + "Civilní jméno: "+ getAvengerCivilName() + "\n"+"Přezdívka: "+getAvengerNickname()+"\n"+"První výskyt: "+getAvengerMovie();
-
+        
     }
     
 }

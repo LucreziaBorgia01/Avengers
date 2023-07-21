@@ -31,8 +31,7 @@ public class Databaze {
     }
     /**
      * Najde Avengera dle klíče
-     * @param name Jméno/Civilní jméno/přezdívka hledaného Avengera
-     * @param 
+     * @param key Jméno/Civilní jméno/přezdívka hledaného Avengera
      * @return Kolekce nalezených Avengerů
      */
     public ArrayList<Avenger> findAvenger(String key) {
